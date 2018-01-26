@@ -19,6 +19,7 @@ public class CustomListener extends TestListenerAdapter implements IInvokedMetho
 	}
 	
 	public void onTestSkipped(ITestResult tr) {
+		System.out.println("Skipped - ");
 		System.out.println("Skipped - "+ tr.getName());
 	}
 	
