@@ -26,7 +26,7 @@ System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 	//fifthone.click();
 	for(int i=0;i<all.size();i++)
 	{
-	
+	System.out.println("printing all the links");
 	        System.out.println(all.get(i).getText()+"****"+all.get(i).isDisplayed()); 
 	        
 		
