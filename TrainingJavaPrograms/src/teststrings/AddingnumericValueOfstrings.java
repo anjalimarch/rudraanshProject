@@ -15,16 +15,16 @@ public class AddingnumericValueOfstrings {
 					int i = Integer.parseInt(b1);
 					sum = sum + i;
 				}
-			
-			System.out.println(sum);
+
 			}
 
 		}
+		System.out.println(sum);
 	}
 
 	public static boolean isStringNumeric(String s) {
 		try {
-			 Integer.parseInt(s);
+			Integer.parseInt(s);
 
 			return true;
 		} catch (Exception e) {
