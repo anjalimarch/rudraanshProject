@@ -1,13 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110" started-at="2018-06-12T06:01:56Z" finished-at="2018-06-12T06:01:57Z">
+  <suite name="Suite" duration-ms="188" started-at="2018-06-12T06:19:44Z" finished-at="2018-06-12T06:19:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110" started-at="2018-06-12T06:01:56Z" finished-at="2018-06-12T06:01:57Z">
-      <class name="TestPrarmeterized">
-        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestPrarmeterized@629f0666]" name="doLoginTest" duration-ms="22" started-at="2018-06-12T11:31:57Z" data-provider="passingData" finished-at="2018-06-12T11:31:57Z">
+    <test name="ApplicationTest" duration-ms="188" started-at="2018-06-12T06:19:44Z" finished-at="2018-06-12T06:19:44Z">
+      <class name="testCases.ApplicationTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="beforeTest" is-config="true" duration-ms="117" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="dologinTest()[pri:1, instance:testCases.ApplicationTest@50cbc42f]" name="dologinTest" duration-ms="1" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologinTest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="doPasswordChangeTest()[pri:2, instance:testCases.ApplicationTest@50cbc42f]" name="doPasswordChangeTest" duration-ms="2" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPasswordChangeTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="logOutTest()[pri:3, instance:testCases.ApplicationTest@50cbc42f]" name="logOutTest" duration-ms="1" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.ApplicationTest@50cbc42f]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.ApplicationTest -->
+    </test> <!-- ApplicationTest -->
+    <test name="TestSoftAssertions" duration-ms="148" started-at="2018-06-12T06:19:44Z" finished-at="2018-06-12T06:19:44Z">
+      <class name="testCases.TestSoftAssertions">
+        <test-method status="FAIL" signature="doRegisterTest()[pri:0, instance:testCases.TestSoftAssertions@357246de]" name="doRegisterTest" duration-ms="96" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	expected [xxxxxxx] but found [yyyyyyy],
+	expected [c] but found [a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [xxxxxxx] but found [yyyyyyy],
+	expected [c] but found [a]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at testCases.TestSoftAssertions.doRegisterTest(TestSoftAssertions.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterTest -->
+      </class> <!-- testCases.TestSoftAssertions -->
+    </test> <!-- TestSoftAssertions -->
+    <test name="RegisterTest" duration-ms="18" started-at="2018-06-12T06:19:44Z" finished-at="2018-06-12T06:19:44Z">
+      <class name="testCases.RegisterTest">
+        <test-method status="FAIL" signature="registerTest()[pri:0, instance:testCases.RegisterTest@3ab39c39]" name="registerTest" duration-ms="7" started-at="2018-06-12T11:49:44Z" finished-at="2018-06-12T11:49:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [xxxxxxx] but found [yyyyyyy]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [xxxxxxx] but found [yyyyyyy]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at testCases.RegisterTest.registerTest(RegisterTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+      </class> <!-- testCases.RegisterTest -->
+    </test> <!-- RegisterTest -->
+    <test name="TestPrarmeterized" duration-ms="175" started-at="2018-06-12T06:19:44Z" finished-at="2018-06-12T06:19:44Z">
+      <class name="testCases.TestPrarmeterized">
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestPrarmeterized@3aa9e816]" name="doLoginTest" duration-ms="137" started-at="2018-06-12T11:49:44Z" data-provider="passingData" finished-at="2018-06-12T11:49:44Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestPrarmeterized@629f0666]" name="doLoginTest" duration-ms="3" started-at="2018-06-12T11:31:57Z" data-provider="passingData" finished-at="2018-06-12T11:31:57Z">
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestPrarmeterized@3aa9e816]" name="doLoginTest" duration-ms="1" started-at="2018-06-12T11:49:44Z" data-provider="passingData" finished-at="2018-06-12T11:49:44Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +184,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestPrarmeterized@629f0666]" name="doLoginTest" duration-ms="1" started-at="2018-06-12T11:31:57Z" data-provider="passingData" finished-at="2018-06-12T11:31:57Z">
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestPrarmeterized@3aa9e816]" name="doLoginTest" duration-ms="1" started-at="2018-06-12T11:49:44Z" data-provider="passingData" finished-at="2018-06-12T11:49:44Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-      </class> <!-- TestPrarmeterized -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.TestPrarmeterized -->
+    </test> <!-- TestPrarmeterized -->
+  </suite> <!-- Suite -->
 </testng-results>

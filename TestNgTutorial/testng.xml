@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="ApplicationTest">
+		<classes>
+			<class name="testCases.ApplicationTest" />
+
+		</classes>
+	</test>
+	<test name="TestPrarmeterized">
+		<classes>
+			<class name="testCases.TestPrarmeterized" />
+
+		</classes>
+	</test>
+	<test name="RegisterTest">
+		<classes>
+			<class name="testCases.RegisterTest" />
+
+		</classes>
+	</test>
+	<test name="TestSoftAssertions">
+		<classes>
+			<class name="testCases.TestSoftAssertions" />
+
+		</classes>
+	</test>
+
+
+
+
+
+	<!-- Test -->
+</suite> <!-- Suite -->
