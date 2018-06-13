@@ -1,58 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test name="ApplicationTest">
-    <classes>
-      <class name="testCases.ApplicationTest"/>
-    </classes>
-  </test> <!-- ApplicationTest -->
-  <test name="TestPrarmeterized">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="testCases.TestPrarmeterized"/>
     </classes>
-  </test> <!-- TestPrarmeterized -->
-  <test name="RegisterTest">
-    <classes>
-      <class name="testCases.RegisterTest"/>
-    </classes>
-  </test> <!-- RegisterTest -->
-  <test name="TestSoftAssertions">
-    <classes>
-      <class name="testCases.TestSoftAssertions"/>
-    </classes>
-  </test> <!-- TestSoftAssertions -->
-  <test name="TestSoftAssertions(failed)" parallel="tests">
-    <classes>
-      <class name="testCases.ApplicationTest">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testCases.ApplicationTest -->
-      <class name="testCases.TestSoftAssertions">
-        <methods>
-          <include name="doRegisterTest"/>
-        </methods>
-      </class> <!-- testCases.TestSoftAssertions -->
-    </classes>
-  </test> <!-- TestSoftAssertions(failed) -->
-  <test name="RegisterTest(failed)" parallel="tests">
-    <classes>
-      <class name="testCases.ApplicationTest">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testCases.ApplicationTest -->
-      <class name="testCases.RegisterTest">
-        <methods>
-          <include name="registerTest"/>
-        </methods>
-      </class> <!-- testCases.RegisterTest -->
-    </classes>
-  </test> <!-- RegisterTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -9,7 +9,7 @@ public class TestPrarmeterized {
 System.out.println("userName---"+userName+"Password---"+Password+"Browser----"+Browser);
 	}
 
-	@DataProvider
+	@DataProvider(parallel=true)
 	public Object[][] passingData() {
 		Object[][] data = new Object[3][3];
 

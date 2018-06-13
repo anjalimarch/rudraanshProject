@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="ApplicationTest">
     <classes>
       <class name="testCases.ApplicationTest"/>
@@ -21,24 +21,7 @@
       <class name="testCases.TestSoftAssertions"/>
     </classes>
   </test> <!-- TestSoftAssertions -->
-  <test name="TestSoftAssertions(failed)" parallel="tests">
-    <classes>
-      <class name="testCases.ApplicationTest">
-        <methods>
-          <include name="beforemethod"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testCases.ApplicationTest -->
-      <class name="testCases.TestSoftAssertions">
-        <methods>
-          <include name="doRegisterTest"/>
-        </methods>
-      </class> <!-- testCases.TestSoftAssertions -->
-    </classes>
-  </test> <!-- TestSoftAssertions(failed) -->
-  <test name="RegisterTest(failed)" parallel="tests">
+  <test name="RegisterTest(failed)">
     <classes>
       <class name="testCases.ApplicationTest">
         <methods>
@@ -55,4 +38,21 @@
       </class> <!-- testCases.RegisterTest -->
     </classes>
   </test> <!-- RegisterTest(failed) -->
+  <test name="TestSoftAssertions(failed)">
+    <classes>
+      <class name="testCases.ApplicationTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testCases.ApplicationTest -->
+      <class name="testCases.TestSoftAssertions">
+        <methods>
+          <include name="doRegisterTest"/>
+        </methods>
+      </class> <!-- testCases.TestSoftAssertions -->
+    </classes>
+  </test> <!-- TestSoftAssertions(failed) -->
 </suite> <!-- Failed suite [Suite] -->
