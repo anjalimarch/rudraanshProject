@@ -2,7 +2,6 @@ package Mod12;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -40,11 +39,13 @@ public class Test_Part1 {
 			 */
 		driver.get(Url);
 		System.out.println("Title of the page ---" + driver.getTitle());
-	 driver.findElement(By.id("login1")).sendKeys("nameanjali");;
-	//	int xLocation = userName.getLocation().x;
-		//int yLocation = userName.getLocation().y;
+		driver.findElement(By.id("login1")).sendKeys("nameanjali");
+		;
+		// int xLocation = userName.getLocation().x;
+		// int yLocation = userName.getLocation().y;
 
-	//	System.out.println("XCoordinate--" + xLocation + "YCoordinate--" + yLocation);
+		// System.out.println("XCoordinate--" + xLocation + "YCoordinate--" +
+		// yLocation);
 		driver.quit();
 
 	}
